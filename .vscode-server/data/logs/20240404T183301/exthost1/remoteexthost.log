@@ -1,0 +1,18 @@
+2024-04-04 18:33:03.640 [info] Extension host with pid 7514 started
+2024-04-04 18:33:03.713 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-04 18:33:03.763 [info] Lock '/home/hiroroshi/.vscode-server/data/User/workspaceStorage/a31be0ed4707e3befabb12d013188dd1/vscode.lock': Lock acquired.
+2024-04-04 18:33:03.774 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-04 18:33:03.775 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-04 18:33:04.379 [info] Eager extensions activated
+2024-04-04 18:33:04.380 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-04 18:33:04.385 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-04 18:33:08.011 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-04-04 18:33:08.012 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-04-04 18:33:08.013 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-04 18:43:53.937 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2024-04-04 18:43:55.340 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-04-04 18:45:21.946 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2024-04-04 18:46:11.465 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: '*'
+2024-04-04 18:48:01.002 [info] Extension host terminating: received terminate message from renderer
+2024-04-04 18:48:01.003 [info] Lock '/home/hiroroshi/.vscode-server/data/User/workspaceStorage/a31be0ed4707e3befabb12d013188dd1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-04-04 18:48:01.227 [info] Extension host with pid 7514 exiting with code 0

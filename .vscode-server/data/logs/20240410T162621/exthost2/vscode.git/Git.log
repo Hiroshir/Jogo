@@ -1,0 +1,21 @@
+2024-04-10 16:53:34.224 [info] Log level: Info
+2024-04-10 16:53:34.224 [info] Validating found git in: "git"
+2024-04-10 16:53:34.224 [info] Using git "2.34.1" from "git"
+2024-04-10 16:53:34.224 [info] > git rev-parse --show-toplevel [25ms]
+2024-04-10 16:53:34.224 [info] > git rev-parse --git-dir --git-common-dir [35ms]
+2024-04-10 16:53:34.224 [info] Open repository: /home/hiroroshi
+2024-04-10 16:53:35.347 [info] > git check-ignore -v -z --stdin [60ms]
+2024-04-10 16:53:35.378 [info] > git rev-parse --show-toplevel [1071ms]
+2024-04-10 16:53:35.383 [info] > git config --get commit.template [1128ms]
+2024-04-10 16:53:36.219 [info] > git check-ignore -v -z --stdin [56ms]
+2024-04-10 16:53:36.286 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [102ms]
+2024-04-10 16:53:36.287 [warning] No such branch: master.
+2024-04-10 16:53:36.299 [info] > git rev-parse --show-toplevel [126ms]
+2024-04-10 16:53:36.341 [info] > git rev-parse --show-toplevel [25ms]
+2024-04-10 16:53:36.375 [info] > git rev-parse --show-toplevel [22ms]
+2024-04-10 16:53:36.385 [info] > git rev-parse --show-toplevel [2ms]
+2024-04-10 16:53:36.549 [info] > git rev-parse --show-toplevel [148ms]
+2024-04-10 16:53:36.667 [info] > git rev-parse --show-toplevel [67ms]
+2024-04-10 16:53:36.848 [info] > git status -z -uall [550ms] (cancelled)
+2024-04-10 16:53:37.720 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-10 17:12:11.790 [info] > git check-ignore -v -z --stdin [1ms]

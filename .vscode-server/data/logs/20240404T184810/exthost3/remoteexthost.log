@@ -1,0 +1,7 @@
+2024-04-04 18:52:26.235 [info] Extension host with pid 11217 started
+2024-04-04 18:52:26.544 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-04 18:52:26.546 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: true, activationEvent: '*'
+2024-04-04 18:52:26.643 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-04 18:52:26.643 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-04 18:52:27.049 [info] Extension host terminating: received terminate message from renderer
+2024-04-04 18:52:27.053 [info] Extension host with pid 11217 exiting with code 0

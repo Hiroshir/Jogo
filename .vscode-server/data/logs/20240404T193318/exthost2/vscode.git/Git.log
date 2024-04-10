@@ -1,0 +1,7 @@
+2024-04-04 19:40:34.388 [info] Log level: Info
+2024-04-04 19:40:34.388 [info] Validating found git in: "git"
+2024-04-04 19:40:34.388 [info] Using git "2.34.1" from "git"
+2024-04-04 19:40:34.388 [info] > git rev-parse --show-toplevel [1640ms]
+2024-04-04 19:40:34.388 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-04-04 19:40:34.388 [info] > git rev-parse --show-toplevel [103ms]
+2024-04-04 19:40:34.388 [info] fatal: not a git repository (or any of the parent directories): .git

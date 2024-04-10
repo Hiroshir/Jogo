@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2024-04-04T20:48:42.631330010Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/wagat/.docker/contexts
+[2024-04-04T20:48:42.648710378Z][docker-desktop-user-distro][I] syncContextStores <HOME>/.docker/contexts <-> /mnt/c/Users/wagat/.docker/contexts os.Symlink <HOME>/.docker/contexts -> /mnt/c/Users/wagat/.docker/contexts
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2024-04-04T20:48:43.453042081Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/wagat/.aws, linkPath = <HOME>/.aws
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2024-04-04T20:48:44.158360645Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/wagat/.azure, linkPath = <HOME>/.azure
+-------------------------------------------------------------------------------->8
+-------------------------------------------------------------------------------->8
+[2024-04-04T20:48:45.018628574Z][docker-desktop-user-distro][I] linkPathToWindows windowsPath = /mnt/c/Users/wagat/.docker/features.json, linkPath = ~/.docker/features.json

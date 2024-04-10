@@ -1,0 +1,38 @@
+2024-04-10 16:26:24.785 [info] Log level: Info
+2024-04-10 16:26:24.785 [info] Validating found git in: "git"
+2024-04-10 16:26:24.785 [info] Using git "2.34.1" from "git"
+2024-04-10 16:26:24.785 [info] > git rev-parse --show-toplevel [7ms]
+2024-04-10 16:26:24.785 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-04-10 16:26:24.785 [info] Open repository: /home/hiroroshi/dev/soccer-championship-manager
+2024-04-10 16:26:24.823 [info] > git rev-parse --show-toplevel [20ms]
+2024-04-10 16:26:24.829 [info] > git config --get commit.template [27ms]
+2024-04-10 16:26:24.863 [info] > git rev-parse --show-toplevel [12ms]
+2024-04-10 16:26:24.876 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2024-04-10 16:26:24.884 [warning] ENOENT: no such file or directory, open '/home/hiroroshi/dev/soccer-championship-manager/.git/refs/remotes/origin/main'
+2024-04-10 16:26:24.888 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-04-10 16:26:24.894 [info] > git rev-parse --show-toplevel [19ms]
+2024-04-10 16:26:24.912 [info] > git status -z -uall [18ms]
+2024-04-10 16:26:24.912 [info] > git rev-parse --show-toplevel [11ms]
+2024-04-10 16:26:24.980 [info] > git merge-base refs/heads/main refs/remotes/origin/main [40ms]
+2024-04-10 16:26:24.987 [info] > git config --get commit.template [7ms]
+2024-04-10 16:26:24.987 [info] > git rev-parse --show-toplevel [13ms]
+2024-04-10 16:26:24.999 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [15ms]
+2024-04-10 16:26:25.601 [info] > git check-ignore -v -z --stdin [40ms]
+2024-04-10 16:26:25.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [586ms]
+2024-04-10 16:26:25.604 [info] > git rev-parse --show-toplevel [592ms]
+2024-04-10 16:26:25.604 [info] > git diff --name-status -z --diff-filter=ADMR 712049a3645a7c9be65728fc7b4e5c48643bd128...refs/remotes/origin/main [598ms]
+2024-04-10 16:26:25.611 [warning] ENOENT: no such file or directory, open '/home/hiroroshi/dev/soccer-championship-manager/.git/refs/remotes/origin/main'
+2024-04-10 16:26:26.317 [info] > git rev-parse --show-toplevel [700ms]
+2024-04-10 16:26:26.318 [info] > git rev-parse refs/remotes/origin/main [707ms]
+2024-04-10 16:26:26.386 [info] > git status -z -uall [52ms]
+2024-04-10 16:26:26.397 [info] > git rev-parse --show-toplevel [43ms]
+2024-04-10 16:44:57.210 [info] > git config --get commit.template [7ms]
+2024-04-10 16:44:57.211 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-04-10 16:44:57.216 [warning] ENOENT: no such file or directory, open '/home/hiroroshi/dev/soccer-championship-manager/.git/refs/remotes/origin/main'
+2024-04-10 16:44:57.217 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-04-10 16:44:57.229 [info] > git status -z -uall [4ms]
+2024-04-10 16:52:09.707 [info] > git config --get commit.template [16ms]
+2024-04-10 16:52:09.710 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-04-10 16:52:09.725 [warning] ENOENT: no such file or directory, open '/home/hiroroshi/dev/soccer-championship-manager/.git/refs/remotes/origin/main'
+2024-04-10 16:52:09.727 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2024-04-10 16:52:09.740 [info] > git status -z -uall [3ms]

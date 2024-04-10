@@ -1,0 +1,53 @@
+2024-04-04 18:52:56.360 [info] 
+
+
+
+
+2024-04-04 18:52:56.422 [info] Extension host agent started.
+2024-04-04 18:52:56.635 [info] [127.0.0.1][2e3289ef][ManagementConnection] New connection established.
+2024-04-04 18:52:57.850 [info] [127.0.0.1][0cc07b61][ExtensionHostConnection] New connection established.
+2024-04-04 18:52:57.879 [info] [127.0.0.1][0cc07b61][ExtensionHostConnection] <11392> Launched Extension Host Process.
+2024-04-04 18:53:47.432 [info] Getting Manifest... dbaeumer.vscode-eslint
+2024-04-04 18:53:47.536 [info] Installing extension: dbaeumer.vscode-eslint
+2024-04-04 18:53:50.296 [info] Extension signature is verified: dbaeumer.vscode-eslint
+2024-04-04 18:53:50.406 [info] Extracted extension to file:///home/hiroroshi/.vscode-server/extensions/dbaeumer.vscode-eslint-2.4.4: dbaeumer.vscode-eslint
+2024-04-04 18:53:50.415 [info] Renamed to /home/hiroroshi/.vscode-server/extensions/dbaeumer.vscode-eslint-2.4.4
+2024-04-04 18:53:50.426 [info] Extracting extension completed. dbaeumer.vscode-eslint
+2024-04-04 18:53:50.438 [info] Extension installed successfully: dbaeumer.vscode-eslint
+2024-04-04 18:54:26.712 [info] Getting Manifest... eamodio.gitlens
+2024-04-04 18:54:26.865 [info] Installing extension: eamodio.gitlens
+2024-04-04 18:54:31.009 [info] Extension signature is verified: eamodio.gitlens
+2024-04-04 18:54:32.366 [info] Extracted extension to file:///home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0: eamodio.gitlens
+2024-04-04 18:54:32.391 [info] Renamed to /home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0
+2024-04-04 18:54:32.402 [info] Extracting extension completed. eamodio.gitlens
+2024-04-04 18:54:32.417 [info] Extension installed successfully: eamodio.gitlens
+2024-04-04 18:55:40.050 [info] Getting Manifest... orsenkucher.vscode-graphql
+2024-04-04 18:55:40.133 [info] Installing extension: orsenkucher.vscode-graphql
+2024-04-04 18:55:45.113 [info] Extension signature is verified: orsenkucher.vscode-graphql
+2024-04-04 18:56:01.896 [info] Extracted extension to file:///home/hiroroshi/.vscode-server/extensions/orsenkucher.vscode-graphql-0.3.18: orsenkucher.vscode-graphql
+2024-04-04 18:56:01.901 [info] Renamed to /home/hiroroshi/.vscode-server/extensions/orsenkucher.vscode-graphql-0.3.18
+2024-04-04 18:56:01.903 [info] Extracting extension completed. orsenkucher.vscode-graphql
+2024-04-04 18:56:01.915 [info] Extension installed successfully: orsenkucher.vscode-graphql
+2024-04-04 18:58:52.824 [info] Getting Manifest... ritwickdey.liveserver
+2024-04-04 18:58:52.916 [info] Installing extension: ritwickdey.liveserver
+2024-04-04 18:58:56.239 [info] Extension signature is verified: ritwickdey.liveserver
+2024-04-04 18:59:06.243 [info] Extracted extension to file:///home/hiroroshi/.vscode-server/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2024-04-04 18:59:06.262 [info] Renamed to /home/hiroroshi/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2024-04-04 18:59:06.267 [info] Extracting extension completed. ritwickdey.liveserver
+2024-04-04 18:59:06.279 [info] Extension installed successfully: ritwickdey.liveserver
+2024-04-04 18:59:28.628 [info] Getting Manifest... ms-vsliveshare.vsliveshare
+2024-04-04 18:59:28.744 [info] Installing extension: ms-vsliveshare.vsliveshare
+2024-04-04 18:59:33.601 [info] Extension signature is verified: ms-vsliveshare.vsliveshare
+2024-04-04 18:59:35.493 [info] Extracted extension to file:///home/hiroroshi/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5918: ms-vsliveshare.vsliveshare
+2024-04-04 18:59:35.525 [info] Renamed to /home/hiroroshi/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.5918
+2024-04-04 18:59:35.533 [info] Extracting extension completed. ms-vsliveshare.vsliveshare
+2024-04-04 18:59:35.545 [info] Extension installed successfully: ms-vsliveshare.vsliveshare
+2024-04-04 19:01:13.936 [info] Getting Manifest... styled-components.vscode-styled-components
+2024-04-04 19:01:14.121 [info] Installing extension: styled-components.vscode-styled-components
+2024-04-04 19:01:18.409 [info] Extension signature is verified: styled-components.vscode-styled-components
+2024-04-04 19:01:25.325 [info] Extracted extension to file:///home/hiroroshi/.vscode-server/extensions/styled-components.vscode-styled-components-1.7.8: styled-components.vscode-styled-components
+2024-04-04 19:01:25.406 [info] Renamed to /home/hiroroshi/.vscode-server/extensions/styled-components.vscode-styled-components-1.7.8
+2024-04-04 19:01:25.412 [info] Extracting extension completed. styled-components.vscode-styled-components
+2024-04-04 19:01:25.426 [info] Extension installed successfully: styled-components.vscode-styled-components
+2024-04-04 19:10:06.476 [info] [127.0.0.1][2e3289ef][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-04-04 19:10:06.905 [info] [127.0.0.1][0cc07b61][ExtensionHostConnection] <11392> Extension Host Process exited with code: 0, signal: null.

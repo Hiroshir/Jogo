@@ -1,0 +1,25 @@
+2024-04-04 18:33:01.481 [info] 
+
+
+
+
+2024-04-04 18:33:01.506 [info] Extension host agent started.
+2024-04-04 18:33:01.658 [info] [127.0.0.1][8c6c1d4c][ManagementConnection] New connection established.
+2024-04-04 18:33:02.245 [info] [127.0.0.1][3184eca4][ExtensionHostConnection] New connection established.
+2024-04-04 18:33:02.270 [info] [127.0.0.1][3184eca4][ExtensionHostConnection] <7514> Launched Extension Host Process.
+2024-04-04 18:45:15.873 [info] Getting Manifest... naumovs.color-highlight
+2024-04-04 18:45:15.974 [info] Installing extension: naumovs.color-highlight
+2024-04-04 18:45:20.437 [info] Extension signature is verified: naumovs.color-highlight
+2024-04-04 18:45:21.638 [info] Extracted extension to file:///home/hiroroshi/.vscode-server/extensions/naumovs.color-highlight-2.8.0: naumovs.color-highlight
+2024-04-04 18:45:21.652 [info] Renamed to /home/hiroroshi/.vscode-server/extensions/naumovs.color-highlight-2.8.0
+2024-04-04 18:45:21.656 [info] Extracting extension completed. naumovs.color-highlight
+2024-04-04 18:45:21.667 [info] Extension installed successfully: naumovs.color-highlight
+2024-04-04 18:46:07.745 [info] Getting Manifest... editorconfig.editorconfig
+2024-04-04 18:46:07.907 [info] Installing extension: editorconfig.editorconfig
+2024-04-04 18:46:10.897 [info] Extension signature is verified: editorconfig.editorconfig
+2024-04-04 18:46:11.048 [info] Extracted extension to file:///home/hiroroshi/.vscode-server/extensions/editorconfig.editorconfig-0.16.4: editorconfig.editorconfig
+2024-04-04 18:46:11.063 [info] Renamed to /home/hiroroshi/.vscode-server/extensions/editorconfig.editorconfig-0.16.4
+2024-04-04 18:46:11.066 [info] Extracting extension completed. editorconfig.editorconfig
+2024-04-04 18:46:11.077 [info] Extension installed successfully: editorconfig.editorconfig
+2024-04-04 18:48:01.016 [info] [127.0.0.1][8c6c1d4c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-04-04 18:48:01.287 [info] [127.0.0.1][3184eca4][ExtensionHostConnection] <7514> Extension Host Process exited with code: 0, signal: null.

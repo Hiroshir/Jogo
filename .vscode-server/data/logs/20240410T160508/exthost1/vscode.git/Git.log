@@ -1,0 +1,55 @@
+2024-04-10 16:05:13.170 [info] Log level: Info
+2024-04-10 16:05:13.170 [info] Validating found git in: "git"
+2024-04-10 16:05:13.170 [info] Using git "2.34.1" from "git"
+2024-04-10 16:05:13.170 [info] > git rev-parse --show-toplevel [546ms]
+2024-04-10 16:05:13.170 [info] > git rev-parse --git-dir --git-common-dir [31ms]
+2024-04-10 16:05:13.170 [info] Open repository: /home/hiroroshi
+2024-04-10 16:05:13.210 [info] > git rev-parse --show-toplevel [26ms]
+2024-04-10 16:05:13.212 [info] > git config --get commit.template [33ms]
+2024-04-10 16:05:13.229 [info] No remotes found in the git config file.
+2024-04-10 16:05:13.238 [info] > git rev-parse --git-dir --git-common-dir [17ms]
+2024-04-10 16:05:13.241 [info] Open repository: /home/hiroroshi/.ssh/soccer-championship-manager
+2024-04-10 16:05:13.260 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [31ms]
+2024-04-10 16:05:13.260 [warning] No such branch: master.
+2024-04-10 16:05:13.297 [info] > git config --get commit.template [42ms]
+2024-04-10 16:05:13.421 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [65ms]
+2024-04-10 16:05:13.433 [warning] ENOENT: no such file or directory, open '/home/hiroroshi/.ssh/soccer-championship-manager/.git/refs/remotes/origin/main'
+2024-04-10 16:05:13.458 [info] > git rev-parse refs/remotes/origin/main [24ms]
+2024-04-10 16:05:13.555 [info] > git status -z -uall [91ms]
+2024-04-10 16:05:13.734 [info] > git merge-base refs/heads/main refs/remotes/origin/main [165ms]
+2024-04-10 16:05:13.747 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [6ms]
+2024-04-10 16:05:13.753 [info] > git config --get commit.template [166ms]
+2024-04-10 16:05:13.755 [info] > git diff --name-status -z --diff-filter=ADMR 712049a3645a7c9be65728fc7b4e5c48643bd128...refs/remotes/origin/main [2ms]
+2024-04-10 16:05:13.768 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-04-10 16:05:13.775 [warning] ENOENT: no such file or directory, open '/home/hiroroshi/.ssh/soccer-championship-manager/.git/refs/remotes/origin/main'
+2024-04-10 16:05:13.834 [info] > git rev-parse refs/remotes/origin/main [59ms]
+2024-04-10 16:05:13.879 [info] > git status -z -uall [38ms]
+2024-04-10 16:05:13.880 [info] > git check-ignore -v -z --stdin [23ms]
+2024-04-10 16:05:13.882 [info] > git check-ignore -v -z --stdin [18ms]
+2024-04-10 16:05:14.155 [info] > git status -z -uall [887ms] (cancelled)
+2024-04-10 16:05:16.015 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-10 16:06:07.976 [info] > git check-ignore -v -z --stdin [0ms]
+2024-04-10 16:06:09.771 [info] > git check-ignore -v -z --stdin [1ms]
+2024-04-10 16:06:12.171 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-10 16:06:14.109 [info] > git check-ignore -v -z --stdin [4ms]
+2024-04-10 16:06:16.368 [info] > git check-ignore -v -z --stdin [2ms]
+2024-04-10 16:06:19.772 [info] > git check-ignore -v -z --stdin [1ms]
+2024-04-10 16:06:45.961 [info] > git show --textconv :.vscode/settings.json [57ms]
+2024-04-10 16:06:45.963 [info] > git ls-files --stage -- /home/hiroroshi/.ssh/soccer-championship-manager/.vscode/settings.json [47ms]
+2024-04-10 16:06:46.082 [info] > git cat-file -s 03df46858c8cd0e6c8fb35dbd17bbba9b190053f [101ms]
+2024-04-10 16:06:57.035 [info] > git show --textconv :components.json [10ms]
+2024-04-10 16:06:57.038 [info] > git ls-files --stage -- /home/hiroroshi/.ssh/soccer-championship-manager/components.json [6ms]
+2024-04-10 16:06:57.047 [info] > git cat-file -s 49417ffc9d3e91bff25c4beb8b59b97b2fd56bb4 [3ms]
+2024-04-10 16:06:59.954 [info] > git show --textconv :dev/init-replica-set.js [42ms]
+2024-04-10 16:06:59.954 [info] > git ls-files --stage -- /home/hiroroshi/.ssh/soccer-championship-manager/dev/init-replica-set.js [25ms]
+2024-04-10 16:07:00.109 [info] > git cat-file -s 1a21c9a41bc696fb8158779b960543d9f239f97e [123ms]
+2024-04-10 16:07:20.411 [info] > git show --textconv :playwright.config.ts [23ms]
+2024-04-10 16:07:20.411 [info] > git ls-files --stage -- /home/hiroroshi/.ssh/soccer-championship-manager/playwright.config.ts [13ms]
+2024-04-10 16:07:20.421 [info] > git cat-file -s 48f641643e312e2e3582d979e6dfbed612a5daa6 [3ms]
+2024-04-10 16:07:31.176 [info] > git check-ignore -v -z --stdin [3ms]
+2024-04-10 16:07:34.993 [info] > git show --textconv :.ssh/id_ed25519 [11ms]
+2024-04-10 16:07:34.993 [info] > git ls-files --stage -- /home/hiroroshi/.ssh/id_ed25519 [2ms]
+2024-04-10 16:07:38.537 [info] > git show --textconv :.ssh/known_hosts.old [15ms]
+2024-04-10 16:07:38.539 [info] > git ls-files --stage -- /home/hiroroshi/.ssh/known_hosts.old [3ms]
+2024-04-10 16:07:40.636 [info] > git show --textconv :.ssh/id_ed25519 [9ms]
+2024-04-10 16:07:40.637 [info] > git ls-files --stage -- /home/hiroroshi/.ssh/id_ed25519 [1ms]

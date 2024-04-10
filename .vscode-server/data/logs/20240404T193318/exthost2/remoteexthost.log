@@ -1,0 +1,173 @@
+2024-04-04 19:40:28.941 [info] Extension host with pid 20259 started
+2024-04-04 19:40:29.004 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-04 19:40:29.006 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: true, activationEvent: '*'
+2024-04-04 19:40:29.071 [info] Lock '/home/hiroroshi/.vscode-server/data/User/workspaceStorage/0ed89b6380b0e60c3c6c47c64ddc5ea2/vscode.lock': Lock acquired.
+2024-04-04 19:40:29.190 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-04 19:40:29.190 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-04 19:40:29.803 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-04-04 19:40:29.816 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-04 19:40:31.545 [info] Eager extensions activated
+2024-04-04 19:40:31.545 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-04 19:40:31.557 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-04 19:40:31.558 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-04-04 19:40:31.558 [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+2024-04-04 19:40:31.559 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2024-04-04 19:40:31.560 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-04-04 19:40:32.611 [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare, startup: false, activationEvent: 'api', root cause: ritwickdey.LiveServer
+2024-04-04 19:40:34.965 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onCommand:npm.packageManager'
+2024-04-04 19:41:23.731 [info] Extension host terminating: received terminate message from renderer
+2024-04-04 19:41:23.732 [info] Lock '/home/hiroroshi/.vscode-server/data/User/workspaceStorage/0ed89b6380b0e60c3c6c47c64ddc5ea2/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-04-04 19:41:23.973 [error] Canceled: Canceled
+	at new O (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:144:46998)
+	at h.U (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:151:5539)
+	at F.<computed>.T.charCodeAt.F.<computed> (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:151:2993)
+	at d.g (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:186335)
+	at d.executeCommand (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:185773)
+	at E.registerCommand.description (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:185097)
+	at d.h (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:186874)
+	at d.g (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:185866)
+	at d.executeCommand (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:185773)
+	at Object.executeCommand (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:164:22984)
+	at w (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:41198)
+	at h (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:46237)
+	at ActionRunners._updateContextKeys (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:18411)
+	at s (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16855)
+	at RegisteredActionRunner.unregister (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16998)
+	at RegisteredActionRunner.dispose (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:15651)
+	at ActionRunners.dispose (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16438)
+	at /home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19519
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19501)
+	at a (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:30:714)
+	at g.eb (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:160:9967)
+	at /home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:160:7816
+	at Array.map (<anonymous>)
+	at g.$ (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:160:7803)
+	at g.terminate (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:160:8077)
+	at a.terminate (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at t (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:177:9917)
+	at a.value (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:177:7964)
+	at s.y (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+	at s.fire (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+	at r.fire (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:107:14173)
+	at d.z (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:107:17238)
+	at a.value (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:107:15690)
+	at s.y (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+	at s.fire (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+	at g.acceptChunk (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:107:11947)
+	at a.value (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:107:11234)
+	at s.y (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+	at s.fire (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+	at i.z (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:174:19732)
+	at i.acceptFrame (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:174:19538)
+	at n (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:174:18037)
+	at /home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:174:15257
+	at Socket.k (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:174:13162)
+	at Socket.emit (node:events:517:28)
+	at addChunk (node:internal/streams/readable:335:12)
+	at readableAddChunk (node:internal/streams/readable:308:9)
+	at Readable.push (node:internal/streams/readable:245:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-04-04 19:41:23.973 [error] Canceled: Canceled
+	at new O (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:144:46998)
+	at h.U (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:151:5539)
+	at F.<computed>.T.charCodeAt.F.<computed> (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:151:2993)
+	at d.g (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:186335)
+	at d.executeCommand (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:185773)
+	at E.registerCommand.description (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:185097)
+	at d.h (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:186874)
+	at d.g (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:185866)
+	at d.executeCommand (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:185773)
+	at Object.executeCommand (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:164:22984)
+	at w (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:41198)
+	at h (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:46237)
+	at ActionRunners._updateContextKeys (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:18411)
+	at s (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16855)
+	at RegisteredActionRunner.unregister (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16998)
+	at RegisteredActionRunner.dispose (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:15651)
+	at ActionRunners.dispose (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16438)
+	at /home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19519
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19501)
+	at a (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:30:714)
+	at g.eb (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:160:9967)
+	at /home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:160:7816
+	at Array.map (<anonymous>)
+	at g.$ (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:160:7803)
+	at g.terminate (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:160:8077)
+	at a.terminate (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at t (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:177:9917)
+	at a.value (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:177:7964)
+	at s.y (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+	at s.fire (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+	at r.fire (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:107:14173)
+	at d.z (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:107:17238)
+	at a.value (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:107:15690)
+	at s.y (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+	at s.fire (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+	at g.acceptChunk (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:107:11947)
+	at a.value (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:107:11234)
+	at s.y (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+	at s.fire (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+	at i.z (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:174:19732)
+	at i.acceptFrame (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:174:19538)
+	at n (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:174:18037)
+	at /home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:174:15257
+	at Socket.k (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:174:13162)
+	at Socket.emit (node:events:517:28)
+	at addChunk (node:internal/streams/readable:335:12)
+	at readableAddChunk (node:internal/streams/readable:308:9)
+	at Readable.push (node:internal/streams/readable:245:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-04-04 19:41:23.974 [error] Canceled: Canceled
+	at new O (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:144:46998)
+	at h.U (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:151:5539)
+	at F.<computed>.T.charCodeAt.F.<computed> (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:151:2993)
+	at d.g (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:186335)
+	at d.executeCommand (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:185773)
+	at E.registerCommand.description (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:185097)
+	at d.h (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:186874)
+	at d.g (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:185866)
+	at d.executeCommand (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:154:185773)
+	at Object.executeCommand (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:164:22984)
+	at w (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:41198)
+	at h (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1081:46237)
+	at ActionRunners._updateContextKeys (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:18411)
+	at s (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16855)
+	at RegisteredActionRunner.unregister (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16998)
+	at RegisteredActionRunner.dispose (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:15651)
+	at ActionRunners.dispose (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:663:16438)
+	at /home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19519
+	at Array.forEach (<anonymous>)
+	at Object.dispose (/home/hiroroshi/.vscode-server/extensions/eamodio.gitlens-14.9.0/dist/gitlens.js:1041:19501)
+	at a (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:30:714)
+	at g.eb (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:160:9967)
+	at /home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:160:7816
+	at Array.map (<anonymous>)
+	at g.$ (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:160:7803)
+	at g.terminate (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:160:8077)
+	at a.terminate (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:164:1513)
+	at t (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:177:9917)
+	at a.value (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:177:7964)
+	at s.y (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+	at s.fire (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+	at r.fire (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:107:14173)
+	at d.z (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:107:17238)
+	at a.value (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:107:15690)
+	at s.y (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+	at s.fire (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+	at g.acceptChunk (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:107:11947)
+	at a.value (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:107:11234)
+	at s.y (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:659)
+	at s.fire (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:82:876)
+	at i.z (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:174:19732)
+	at i.acceptFrame (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:174:19538)
+	at n (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:174:18037)
+	at /home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:174:15257
+	at Socket.k (/home/hiroroshi/.vscode-server/bin/5c3e652f63e798a5ac2f31ffd0d863669328dc4c/out/vs/workbench/api/node/extensionHostProcess.js:174:13162)
+	at Socket.emit (node:events:517:28)
+	at addChunk (node:internal/streams/readable:335:12)
+	at readableAddChunk (node:internal/streams/readable:308:9)
+	at Readable.push (node:internal/streams/readable:245:10)
+	at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-04-04 19:41:24.045 [info] Extension host with pid 20259 exiting with code 0
